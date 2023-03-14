@@ -71,7 +71,7 @@ door2door-2$ sam local invoke HelloWorldFunction --event events/event.json
 
 The SAM CLI can also emulate your application's API. Use the `sam local start-api` to run the API locally on port 3000.
 
-
+ 
 ```bash
 door2door-2$ sam local start-api
 door2door-2$ curl http://localhost:3000/
