@@ -172,4 +172,10 @@ The following is the proposed architecture to provide a solution to the company'
 
 ![Untitled Diagram-3](https://user-images.githubusercontent.com/6599757/224897707-adb9cc95-4f68-48cd-9a0c-44648b641212.jpg)
 
-This is an example of running d
+
+This is an example of running step function. It could help us to understand better the way of work
+
+![Screen Shot 2023-03-13 at 11 35 42 PM](https://user-images.githubusercontent.com/6599757/224926748-34239d09-eb6f-46e0-9cb0-492c2840bb0c.png)
+
+
+
