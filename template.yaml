@@ -1,6 +1,6 @@
 Transform: AWS::Serverless-2016-10-31
 
-Description: "This is a template to create ETL pipeline pattern with AWS Step Functions"
+Description: "This is a template to create and deploy door2door ETL pipeline"
 
 Parameters: 
   pDirsToCreate:
@@ -128,7 +128,7 @@ Resources:
   BasicManagedPolicyforCodeBuild: 
     Type: "AWS::IAM::ManagedPolicy"
     Properties:
-      Description: "This is sample CFN template"
+      Description: "This is CFN template to set up basic mange policies to deploy code build"
       PolicyDocument: 
         Version: "2012-10-17"
         Statement: 
@@ -218,7 +218,7 @@ Resources:
   BasicManagedPolicyforlambda: 
     Type: "AWS::IAM::ManagedPolicy"
     Properties:
-      Description: "This is sample CFN template"
+      Description: "This is CFN template to set up basic manage policies to deploy Lambdas"
       PolicyDocument: 
         Version: "2012-10-17"
         Statement: 
@@ -275,7 +275,7 @@ Resources:
   ManagedPolicyforstepfunction: 
     Type: "AWS::IAM::ManagedPolicy"
     Properties:
-      Description: "This is sample CFN template"
+      Description: "This is CFN template to set up basic manage policies to deploy StepFunctions"
       PolicyDocument: 
         Version: "2012-10-17"
         Statement: 
@@ -313,7 +313,7 @@ Resources:
   ManagedPolicyforlambda: 
     Type: "AWS::IAM::ManagedPolicy"
     Properties:
-      Description: "This is sample CFN template"
+      Description: "This is CFN template to set up and manage policies to deploy Lambdas"
       PolicyDocument: 
         Version: "2012-10-17"
         Statement: 

@@ -33,7 +33,7 @@ Resources:
             Schedule: 'cron(20 19 * * ? *)'  # Runs every day each 6 hours
     Metadata:
       Dockerfile: Dockerfile
-      DockerContext: ./hello_world
+      DockerContext: ./drive_extract
       DockerTag: python3.9-v1
 
 Outputs:
